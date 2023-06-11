@@ -1,0 +1,75 @@
+.nav{
+    position: fixed;
+    background-color: grey;
+    width: 100%;
+    height: 10%;
+    line-height: 30px;
+
+
+}
+
+.nav ul{
+    list-style: none;
+}
+
+.nav ul li{
+    display: inline;
+    padding: 7%;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: blue;
+}
+
+.navbutton button{
+    display: inline;
+    width: 10%;
+    line-height: 40%;
+    padding: 15px;
+    border-radius: 15px;
+   
+   }
+  
+   .navbutton button:hover{
+    background-color: black;
+   }
+  
+   .contactform>input{
+    color: beige;
+    background-color: black;
+    margin: none;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px
+  
+   }
+   button{
+    width: 100%;
+    background-color: darkgray;
+    margin: none;
+    padding: 15px;
+   }
+body{
+background-color: aqua ;
+}
+
+#form{
+    display: grid;
+    place-items: center;
+    align-items: center;
+  } 
+  
+  .submit{
+    color: black;
+    background-color: transparent;
+    border-radius: 20px;
+    
+  }
+  .submit:hover{
+    color: grey;
+    background-color: black;
+  }
+  p{
+    font-family: verdana;
+  }
