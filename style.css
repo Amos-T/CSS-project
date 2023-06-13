@@ -70,6 +70,18 @@ background-color: aqua ;
     color: grey;
     background-color: black;
   }
+
+  
+
   p{
-    font-family: verdana;
+    font-family: Roboto;
+  }
+
+  h2, h3{
+    font-family: Roboto;
+  }
+  .iimage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
